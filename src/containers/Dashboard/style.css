@@ -1,0 +1,21 @@
+body{
+    background-image: url('../../assests/background-image.png');
+}
+.pagination {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.page-count {
+    background-color: rgb(212, 242, 185);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.loader{
+    position: relative;
+    left: 49%;
+    top: 49%;
+    color: rgb(240, 41, 6);
+}

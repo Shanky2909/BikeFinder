@@ -1,0 +1,32 @@
+.card-content{
+    margin: 20px 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(205, 248, 244);
+}
+
+.card-content:nth-child(odd){
+    background-color: rgb(243, 194, 194);
+}
+
+.details{
+    margin: 10px;
+    width: 33%;
+}
+
+.thumb-image{
+    width: 200px;
+    height: 200px;
+}
+
+.normal-label {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.bike-name {
+    color:green;
+    font-weight: bold;
+}

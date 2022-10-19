@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(247, 222, 106);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-search{
+    text-align: center;
+    width: 500px;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+
+.text-content{
+    text-align: center;
+    font-size: 22px;
+    color: aquamarine;
+}
